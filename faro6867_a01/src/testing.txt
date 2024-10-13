@@ -1,0 +1,72 @@
+------------------
+Test: mychar
+
+Char	ASCII	MyType
+   2	   50	     0
+  char_to_int: 2
+Char	ASCII	MyType
+   8	   56	     0
+  char_to_int: 8
+Char	ASCII	MyType
+   A	   65	     2
+  caseflip: a
+Char	ASCII	MyType
+   a	   97	     2
+  caseflip: A
+Char	ASCII	MyType
+   z	  122	     2
+  caseflip: Z
+Char	ASCII	MyType
+   +	   43	     1
+  operator
+Char	ASCII	MyType
+   -	   45	     1
+  operator
+Char	ASCII	MyType
+   $	   36	    -1
+  Not typed
+  
+  
+------------------
+Test: factorial
+
+1!: 1
+2!: 2
+3!: 6
+4!: 24
+5!: 120
+6!: 720
+7!: 5040
+8!: 40320
+9!: 362880
+10!: 3628800
+11!: 39916800
+12!: 479001600
+13!: overflow
+14!: overflow
+
+
+------------------
+Test: mymortgage
+
+principal:            1000.00
+interest rate:           5.00%
+years:                     10
+monthly payment:        10.61
+total payment:        1272.79
+total interest:        272.79
+
+principal:          250000.00
+interest rate:           9.50%
+years:                     20
+monthly payment:      2330.33
+total payment:      559278.69
+total interest:     309278.69
+
+principal:             100.00
+interest rate:           1.00%
+years:                      1
+monthly payment:         8.38
+total payment:         100.54
+total interest:          0.54
+
